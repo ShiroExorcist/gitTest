@@ -16,3 +16,35 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/catalog', function() {
+    return "this is a catalog";
+});
+
+Route::get('/about', function() {
+    return "this is about page";
+});
+
+Route::get('/contacts', function() {
+    return "this is a contacts page";
+});
+
+Route::get('/sale', function() {
+    return "this is a sale page";
+});
+
+Route::get('/work', function() {
+    return "this is work page";
+});
+
+Route::get('/settings', function() {
+    return "this is a settings page";
+});
+
+Route::get('/wiki', function() {
+    return "this is a wiki page";
+});
+
+Route::get('/portfolio', function() {
+    return "this is a portfolio page";
+});
